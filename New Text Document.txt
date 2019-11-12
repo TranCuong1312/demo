@@ -1,1 +1,3 @@
 qweqrweqrweqwerqeqwwreqwe
+ git push -u origin master
+(dua len git toan bo folder)
