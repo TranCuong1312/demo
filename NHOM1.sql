@@ -15,7 +15,7 @@ DROP TABLE IF  EXISTS Countries;
   CREATE TABLE Localtions
  (
 	Localtions_ID			INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
-    Name			 		VARCHAR(255) NOT NULL,
+    'Name'			 		VARCHAR(255) NOT NULL,
     Country_ID				INT NOT NULL,
     Postal_Code 		VARCHAR(255),
 	FOREIGN KEY (Country_ID) REFERENCES Countries (Country_ID)
