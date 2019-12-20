@@ -6,7 +6,7 @@ USE THUCTAP;
 
 CREATE TABLE IF NOT EXISTS THUCTAPSINH
 (
-     TRAINEEID    CHAR(2)      NOT NULL   UNIQUE,
+     TRAINEEID    CHAR(2)      NOT NULL   UNIQUE AUTO_INCREMENT,
      `NAME`       VARCHAR(30)  NOT NULL,
      AGE          TINYINT      NOT NULL,
      BRITH        DATETIME     NOT NULL,
@@ -27,10 +27,10 @@ CREATE TABLE IF NOT EXISTS THUCTAPSINH
         (		4,			 'EAST',   20,  '1999-4-14',       6,          9,   145,     2),
         (		5,	  ' NORTH-EAST',   54, '1212-12-12',     7.8,          2,   135,     3),
         (		6, 	   'NORTH-WEST',   20,   '1300-3-2', 	   9, 		   9, 	150, 	 1),
-	    (		7, 	   'SOUTH-EAST',   20, 	 '1220-4-5', 	   9, 		   9, 	150, 	 1),
-	    (		8, 	   'SOUTH-WEST',   20, 	 '1400-5-4', 	   9, 		   9, 	150, 	 1),
-	    (		9, 		   'MIDDLE',   40, 	 '1323-5-2', 	   9, 		   9, 	150, 	 1),
-	    (	   10, 	      'NOWHERE',   20, '1914-11-18', 	   9, 		   9, 	150, 	 1);
+	(		7, 	   'SOUTH-EAST',   20, 	 '1220-4-5', 	   9, 		   9, 	150, 	 1),
+	(		8, 	   'SOUTH-WEST',   20, 	 '1400-5-4', 	   9, 		   9, 	150, 	 1),
+	(		9, 		   'MIDDLE',   40, 	 '1323-5-2', 	   9, 		   9, 	150, 	 1),
+	(	   10, 	      'NOWHERE',   20, '1914-11-18', 	   9, 		   9, 	150, 	 1);
         
 /*2:*/
         
